@@ -1,16 +1,14 @@
 # article-distinct-encoding
 
-This repository contains analysis code for the following paper:
+This repository contains data and code supporting the following paper:
 
-Bang & Fleming (2018) “Distinct encoding of decision confidence in human medial prefrontal cortex”
+<a href="http://www.pnas.org/content/early/2018/05/18/1800795115">Bang & Fleming (2018) “Distinct encoding of decision confidence in human medial prefrontal cortex” </a>
 
-Anonymised behavioural data files and ROI data are included in the repository to enable replication of main analyses and figures in the paper. 
-
-FigureX.m files will generate the specified plots from the paper by loading behavioural data, model predictions (confidence model or HDDM) and/or fMRI data.
+FigureX.m files will generate the specified plots from the paper by loading behavioural data, model predictions and/or fMRI ROI data.
 
 The paths in these scripts require altering the directory variable ‘repoBase’ to point to your local version of the repository.
 
-Unthresholded group-level statistical maps for main fMRI analyses reported in the paper are available on NeuroVault: https://neurovault.org/collections/3792/.
+Unthresholded group-level statistical maps supporting whole-brain analyses are available on NeuroVault: https://neurovault.org/collections/3792/.
 
 **Folders**
 
@@ -37,5 +35,9 @@ Contains scripts for permutation testing for analysis of ROI activity time cours
 *SPM*
 
 Contains scripts for setting up GLMs of fMRI data. fMRI data were pre-processed using standard pipelines available here: https://github.com/metacoglab/MetaLabCore. All fMRI analyses were done using SPM 12 (www.fil.ion.ucl.ac.uk/spm). 
+
+*Preprint*
+
+A preprint of this article can be found on <a href="https://www.biorxiv.org/content/early/2018/05/03/251330">bioRxiv</a>.
 
 This code is being released with a permissive open-source license. You should feel free to use or adapt the  code as long as you follow the terms of the license. If you make use of the behavioural, modelling or neuroimaging analyses, we would appreciate that you cite the paper.
